@@ -30,7 +30,7 @@ The reason why i have this bug is that in my test file which is my failur input,
 2. Link to the test file for a failure-inducing input that prompted you to make that
 change
 
-[Link]()
+[Link](https://github.com/A17138501/markdown-parser/edit/main/test-file2.md)
 
 3. Show the symptom of that failure-inducing input by showing the output of
 running the file at the command line for the version where it was failing
@@ -40,7 +40,8 @@ running the file at the command line for the version where it was failing
 
 4. Description for the bug, failiur input and symptom.
 
-The reason why I have this bug is that the second link does not have any parentheses so that my 
+The reason why I have this bug is that the second link does not have a close parentheses so that markdown.indexOf(")", currentindex) it will return -1
+which give a -1 value to closeparen and currentindex will be closeparen +1 whcih is 0, wo that currentIndex will always be less than markdown.length(). while loop will not be stop. so that i add a if statement that if it close parentheses can not be found. whcih means closeparen == -1. I will force it to break.
 
 ## Third Code Change
 
