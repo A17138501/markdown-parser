@@ -25,11 +25,12 @@ The reason why i have this bug is that in my test file which is my failur input,
 
 1. a screenshot of the code change diff from Github
 
-![image](https://user-images.githubusercontent.com/97008935/165000464-0f15d2b5-562a-4f30-9e30-d4c0e06390cb.png)
+![image](https://user-images.githubusercontent.com/97008935/165003293-0f3b8858-a558-4012-a65c-18cf98d2515a.png)
 
 2. Link to the test file for a failure-inducing input that prompted you to make that
 change
 
+[Link]()
 
 3. Show the symptom of that failure-inducing input by showing the output of
 running the file at the command line for the version where it was failing
