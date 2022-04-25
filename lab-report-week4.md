@@ -52,7 +52,7 @@ which give a -1 value to closeparen and currentindex will be closeparen +1 whcih
 2. Link to the test file for a failure-inducing input that prompted you to make that
 change
 
-[Link]()
+[Link](https://github.com/A17138501/markdown-parser/edit/main/test-file4.md)
 
 3. Show the symptom of that failure-inducing input by showing the output of
 running the file at the command line for the version where it was failing
@@ -60,6 +60,6 @@ running the file at the command line for the version where it was failing
 ![Image](https://user-images.githubusercontent.com/97008935/165003818-fb822c27-3a9f-4a95-b26f-441a2482125a.png)
 
 4. Description for the bug, failiur input and symptom.
-
+The Bug i have is that it throws an Exception which is StringIndexOutOfBoundsException. Because my input dont have an open parentheses and i use index of to get the value of openparent which will give me a -1. and the while loop will not be stop what i did is that i add an if statement to force while loop to break. 
 
 
