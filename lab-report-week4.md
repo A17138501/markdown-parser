@@ -34,8 +34,12 @@ change
 3. Show the symptom of that failure-inducing input by showing the output of
 running the file at the command line for the version where it was failing
 
+![image](https://user-images.githubusercontent.com/97008935/165002980-79908127-3b05-40b8-8c06-7dc027a52b62.png)
+
+
 4. Description for the bug, failiur input and symptom.
 
+The reason why I have this bug is that the second link does not have any parentheses so that my 
 
 ## Third Code Change
 
