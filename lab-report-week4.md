@@ -1,9 +1,10 @@
 # Lab Report Week4 #
 
 ## First Code Change
+
 1. a screenshot of the code change diff from Github
 
-![image](https://user-images.githubusercontent.com/97008935/165000464-0f15d2b5-562a-4f30-9e30-d4c0e06390cb.png)
+![image](https://user-images.githubusercontent.com/97008935/165004488-6c52fbbc-d717-456b-ae81-3d1d033a02fd.png)
 
 2. Link to the test file for a failure-inducing input that prompted you to make that
 change
