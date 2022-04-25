@@ -47,6 +47,8 @@ which give a -1 value to closeparen and currentindex will be closeparen +1 whcih
 
 1. a screenshot of the code change diff from Github
 
+![Image](https://user-images.githubusercontent.com/97008935/165004074-778f126b-8ab5-45ef-a8a4-24e0b4ac5edf.png)
+
 2. Link to the test file for a failure-inducing input that prompted you to make that
 change
 
@@ -55,8 +57,9 @@ change
 3. Show the symptom of that failure-inducing input by showing the output of
 running the file at the command line for the version where it was failing
 
-[Image](https://user-images.githubusercontent.com/97008935/165003818-fb822c27-3a9f-4a95-b26f-441a2482125a.png)
+![Image](https://user-images.githubusercontent.com/97008935/165003818-fb822c27-3a9f-4a95-b26f-441a2482125a.png)
 
 4. Description for the bug, failiur input and symptom.
+
 
 
