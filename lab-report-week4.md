@@ -8,7 +8,7 @@
 2. Link to the test file for a failure-inducing input that prompted you to make that
 change
 
-[link](https://github.com/A17138501/markdown-parser/blob/main/test-file3.md)
+[link](https://github.com/A17138501/markdown-parser/edit/main/test-file.md)
 
 3. Show the symptom of that failure-inducing input by showing the output of
 running the file at the command line for the version where it was failing
