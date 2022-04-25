@@ -40,7 +40,7 @@ running the file at the command line for the version where it was failing
 
 4. Description for the bug, failiur input and symptom.
 
-The reason why I have this bug is that the second link does not have a close parentheses so that markdown.indexOf(")", currentindex) it will return -1
+The bug throws an Exceptioin that is StringIndexOutOfBoundsException. The reason why I have this bug is that the second link does not have a close parentheses so that markdown.indexOf(")", currentindex) it will return -1
 which give a -1 value to closeparen and currentindex will be closeparen +1 whcih is 0, wo that currentIndex will always be less than markdown.length(). while loop will not be stop. so that i add a if statement that if it close parentheses can not be found. whcih means closeparen == -1. I will force it to break.
 
 ## Third Code Change
