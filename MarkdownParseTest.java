@@ -18,7 +18,7 @@ public class MarkdownParseTest {
     public void testGetLinks1() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Documents/GitHub/cse15l-lab-reports./cse15l-lab-reports/markdown-parser/test-file.md")));
+                .getLinks(Files.readString(Path.of("test-file.md")));
 
         assertEquals(List.of("https://something.com", "some-thing.html"), arr);
     }
@@ -27,7 +27,7 @@ public class MarkdownParseTest {
     public void testGetLinks2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Documents/GitHub/cse15l-lab-reports./cse15l-lab-reports/markdown-parser/test-file2.md")));
+                .getLinks(Files.readString(Path.of("test-file2.md")));
 
         assertEquals(List.of("https://something.com"), arr);
     }
@@ -36,7 +36,7 @@ public class MarkdownParseTest {
     public void testGetLinks3() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Documents/GitHub/cse15l-lab-reports./cse15l-lab-reports/markdown-parser/test-file3.md")));
+                .getLinks(Files.readString(Path.of("test-file3.md")));
 
         assertEquals(List.of(), arr);
     }
@@ -45,7 +45,7 @@ public class MarkdownParseTest {
     public void testGetLinks4() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Desktop/markdown-parser-main/test-file4.md")));
+                .getLinks(Files.readString(Path.of("test-file4.md")));
 
         assertEquals(List.of(), arr);
     }
@@ -54,7 +54,7 @@ public class MarkdownParseTest {
     public void testGetLinks5() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Desktop/markdown-parser-main/test-file5.md")));
+                .getLinks(Files.readString(Path.of("test-file5.md")));
 
         assertEquals(List.of("page.com"), arr);
     }
@@ -63,7 +63,7 @@ public class MarkdownParseTest {
     public void testGetLinks6() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Desktop/markdown-parser-main/test-file6.md")));
+                .getLinks(Files.readString(Path.of("test-file6.md")));
 
         assertEquals(List.of("page.com"), arr);
     }
@@ -72,7 +72,7 @@ public class MarkdownParseTest {
     public void testGetLinks7() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Desktop/markdown-parser-main/test-file7.md")));
+                .getLinks(Files.readString(Path.of("test-file7.md")));
 
         assertEquals(List.of(), arr);
     }
@@ -81,7 +81,7 @@ public class MarkdownParseTest {
     public void testGetLinks8() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr = MarkdownParse
-                .getLinks(Files.readString(Path.of("/Users/rundongguo/Documents/GitHub/cse15l-lab-reports./cse15l-lab-reports/markdown-parser/test-file8.md")));
+                .getLinks(Files.readString(Path.of("test-file8.md")));
 
         assertEquals(List.of("a link on the first line"), arr);
     }
