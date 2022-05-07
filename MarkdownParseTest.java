@@ -29,7 +29,7 @@ public class MarkdownParseTest {
         arr = MarkdownParse
                 .getLinks(Files.readString(Path.of("/Users/rundongguo/Documents/GitHub/cse15l-lab-reports./cse15l-lab-reports/markdown-parser/test-file2.md")));
 
-        assertEquals(List.of("https://something.com", "some-page.html"), arr);
+        assertEquals(List.of("https://something.com"), arr);
     }
 
     @Test
