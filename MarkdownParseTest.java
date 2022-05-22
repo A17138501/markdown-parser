@@ -86,4 +86,38 @@ public class MarkdownParseTest {
         assertEquals(List.of("a link on the first line"), arr);
     }
 
+
+    @Test
+    public void Snippet1() throws IOException {
+        ArrayList<String> arr = new ArrayList<>();
+        arr = MarkdownParse
+                .getLinks(Files.readString(Path.of("/Users/rundongguo/Desktop/markdown-parser/markdown-parser/Snippet1.md")));
+
+        assertEquals(List.of("`google.com","google.com","ucsd.edu"), arr);
+    }
+
+    @Test
+    public void Snippet2() throws IOException {
+        ArrayList<String> arr = new ArrayList<>();
+        arr = MarkdownParse
+                .getLinks(Files
+                        .readString(Path.of("/Users/rundongguo/Desktop/markdown-parser/markdown-parser/Snippet2.md")));
+
+        assertEquals(List.of("b.com", "a.com(())", "example.com"), arr);
+
+    }
+
+@Test
+public void Snippet3() throws IOException {
+    ArrayList<String> arr = new ArrayList<>();
+    arr = MarkdownParse
+            .getLinks(
+                    Files.readString(Path.of("/Users/rundongguo/Desktop/markdown-parser/markdown-parser/Snippet3.md")));
+    assertEquals(
+            List.of("https://www.twitter.com", "https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule",
+    "https://cse.ucsd.edu/"), arr);
+    
 }
+
+}
+
